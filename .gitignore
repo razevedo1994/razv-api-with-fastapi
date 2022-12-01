@@ -127,3 +127,12 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Project
+.venv
+*.egg-info
+__pycache__
+**/__pycache__
+**/**/__pycache__
+**/**/**/__pycache__
+.secrets.toml
